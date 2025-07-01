@@ -70,3 +70,13 @@ npm run dev
 Visit: [http://localhost:5173](http://localhost:5173)
 
 ---
+
+Challenge #1: Setup the backend to allow file upload and RAG over your grandpa's notes.
+
+Deliverables:
+
+POST /upload-note endpoint
+
+POST /ask-question endpoint
+
+Uses LangChain with FAISS
