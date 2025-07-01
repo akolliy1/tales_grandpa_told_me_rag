@@ -1,0 +1,10 @@
+django>=4.0
+djangorestframework
+langchain
+langchain-community
+openai
+faiss-cpu
+tiktoken
+PyPDF2
+python-dotenv
+langchain-openai

@@ -1,0 +1,31 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grandpa RAG Assistant</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #f9f9f9; }
+    .chat-box { background: #fff; padding: 2rem; border-radius: 8px; max-width: 600px; margin: 0 auto; }
+    input, textarea, button { width: 100%; margin-top: 1rem; padding: 0.5rem; }
+    .response { margin-top: 2rem; background: #efefef; padding: 1rem; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div class="chat-box">
+    <h2>Ask Grandpa's Assistant</h2>
+    <form method="POST">
+      {% csrf_token %}
+      <textarea name="question" rows="4" placeholder="Type your question here...">{{ question }}</textarea>
+      <button type="submit">Ask</button>
+    </form>
+
+    {% if answer %}
+    <div class="response">
+      <h4>Answer:</h4>
+      <p>{{ answer }}</p>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>

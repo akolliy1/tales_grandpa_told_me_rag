@@ -1,0 +1,22 @@
+Grandpa Journal (most of my conversation with grandpa):
+
+**Technical Interview Wisdom:**
+"Always start with the simplest solution that works, then optimize. Don't try to impress with complexity right away." He'd remind you that interviewers want to see clear thinking, not just clever code.
+
+"When they ask about Django, explain the MTV pattern like you're teaching it to someone new. If you truly understand it, you can make it simple." Your grandpa probably emphasized that being able to explain concepts clearly shows mastery.
+
+**Django Insights:**
+"Remember, Django's 'batteries included' philosophy means you should know what's already there before building it yourself." He might have taught you to always check Django's built-in features first - from authentication to admin panels.
+
+"Models are your foundation - get the data relationships right, and everything else follows more easily." This reflects the importance of proper database design in Django applications.
+
+**Python Philosophy:**
+"Write code like the next person reading it is a violent psychopath who knows where you live." Your grandpa probably valued clean, readable Python code following PEP 8.
+
+"Use Python's strengths - list comprehensions, context managers, decorators. But don't use them just to show off; use them when they make the code clearer."
+
+**RAG System Guidance:**
+"Good retrieval is half the battle. If you can't find the right information, the best language model won't help you." He'd emphasize the importance of proper document chunking and embedding strategies.
+
+"Always have a fallback plan when your retrieval returns nothing useful. Empty results shouldn't break the user experience."
+
