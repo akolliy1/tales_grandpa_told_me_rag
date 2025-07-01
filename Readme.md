@@ -71,12 +71,10 @@ Visit: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-Challenge #1: Setup the backend to allow file upload and RAG over your grandpa's notes.
+#1: The backend Setup allow file upload and RAG over curated grandpa's notes.
 
 Deliverables:
 
-POST /upload-note endpoint
+> POST /upload-note endpoint
 
-POST /ask-question endpoint
-
-Uses LangChain with FAISS
+> POST /ask-question endpoint
