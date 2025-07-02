@@ -78,3 +78,6 @@ Deliverables:
 > POST /upload-note endpoint
 
 > POST /ask-question endpoint
+
+> http://127.0.0.1:8000/chat/
+
